@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "betterhungertweaker",
+  "version": "${version}",
+  "name": "Better Hunger Tweaker",
+  "description": "A mod that allows you to change the saturation of bread. Only the saturation, only for bread.",
+  "authors": [
+    "Draylar"
+  ],
+  "license": "MIT",
+  "icon": "assets/betterhungertweaker/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.draylar.betterhungertweaker.BetterHungerTweaker"
+    ]
+  },
+  "mixins": [
+    "betterhungertweaker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.8+build.185",
+    "fabric": "*",
+    "minecraft": "1.15.2"
+  }
+}
